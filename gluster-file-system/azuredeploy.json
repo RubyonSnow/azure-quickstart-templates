@@ -280,7 +280,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat(parameters('vmNamePrefix'), copyindex(), '/extension')]",
-      "apiVersion": "2015-05-01-preview",
+      "apiVersion": "2015-05-01",
       "location": "[resourceGroup().location]",
       "copy": {
         "name": "gfs",
