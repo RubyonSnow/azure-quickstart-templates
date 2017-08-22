@@ -100,7 +100,7 @@
     },
     "customScriptCommandToExecute": {
       "type": "string",
-      "defaultValue": "bash azuregfs.sh",
+      "defaultValue": "sh azuregfs.sh",
       "metadata": {
         "description": "command to run the custom script"
       }
